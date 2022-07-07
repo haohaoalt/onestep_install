@@ -4,3 +4,10 @@
 ```
 wget http://fishros.com/install -O fishros && . fishros
 ```
+
+# 02 一键安装src路径下所有package的依赖项
+
+```
+rosdep install --from-paths src --ignore-src --rosdistro melodic -r -y
+```
+
