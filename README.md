@@ -11,3 +11,5 @@ wget http://fishros.com/install -O fishros && . fishros
 rosdep install --from-paths src --ignore-src --rosdistro melodic -r -y
 ```
 
+https://s.pz.pe/subscribe/71RRENTM459C9UW1?node=ssr
+
