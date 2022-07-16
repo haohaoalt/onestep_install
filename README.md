@@ -14,3 +14,8 @@ rosdep install --from-paths src --ignore-src --rosdistro melodic -r -y
 
 https://s.pz.pe/subscribe/71RRENTM459C9UW1?node=ssr
 
+## 04 GIT use
+```
+git config --global user.email "haohaoalt@163.com"
+git config --global user.name "hao007"
+```
