@@ -1,0 +1,27 @@
+//每次debug不同的文件，需要修改"program"，可选修改 "name"，也可以定义多个name这样的结构体
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "my_dxl_node", // 自定义的名称
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/devel/lib/myDynamixel/my_dxl_node", // 需要debug的文件。注意是node名称，不是文件名
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "catkin_make: build", //这里跟的是tasks.json文件中的定义，意在debug前进行build操作
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}
