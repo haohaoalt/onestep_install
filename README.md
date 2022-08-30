@@ -1,3 +1,10 @@
+<!--
+ * @Author: zhanghao
+ * @Date: 2022-08-30 19:48:45
+ * @LastEditTime: 2022-08-30 19:52:59
+ * @FilePath: /onestep_install/README.md
+ * @Description: 
+-->
 # onestep_install
 这是一个用于自己快速安装指令的仓库
 ## 01 ROS
@@ -18,4 +25,9 @@ https://s.pz.pe/subscribe/71RRENTM459C9UW1?node=ssr
 ```
 git config --global user.email "haohaoalt@163.com"
 git config --global user.name "hao007"
+```
+
+## 05 dpkg 修复
+```
+sudo apt --fix-broken install
 ```
