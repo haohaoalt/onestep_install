@@ -4,6 +4,9 @@
  * @LastEditTime: 2022-08-30 19:52:59
  * @FilePath: /onestep_install/README.md
  * @Description: 
+ ## 03 ssr for vpn
+
+https://s.pz.pe/subscribe/71RRENTM459C9UW1?node=ssr
 -->
 # onestep_install
 这是一个用于自己快速安装指令的仓库
@@ -17,17 +20,15 @@ wget http://fishros.com/install -O fishros && . fishros
 ```
 rosdep install --from-paths src --ignore-src --rosdistro melodic -r -y
 ```
-## 03 ssr for vpn
 
-https://s.pz.pe/subscribe/71RRENTM459C9UW1?node=ssr
 
-## 04 GIT use
+## 03 GIT use
 ```
 git config --global user.email "haohaoalt@163.com"
 git config --global user.name "hao007"
 ```
 
-## 05 dpkg 修复
+## 04 dpkg 修复
 ```
 sudo apt --fix-broken install
 ```
