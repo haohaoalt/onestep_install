@@ -1,7 +1,7 @@
 <!--
  * @Author: zhanghao
  * @Date: 2022-08-30 19:48:45
- * @LastEditTime: 2022-08-30 19:52:59
+ * @LastEditTime: 2022-11-05 16:58:39
  * @FilePath: /onestep_install/README.md
  * @Description: 
  ## 03 ssr for vpn
@@ -9,7 +9,7 @@
 https://s.pz.pe/subscribe/71RRENTM459C9UW1?node=ssr
 -->
 # onestep_install
-这是一个用于自己快速安装指令的仓库
+这是一个用于自己快速安装指令的仓库，將次倉庫放入硬盤中以做備用
 ## 01 ROS
 ```
 wget http://fishros.com/install -O fishros && . fishros
