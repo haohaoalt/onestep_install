@@ -1,7 +1,7 @@
 <!--
  * @Author: zhanghao
  * @Date: 2022-08-30 19:48:45
- * @LastEditTime: 2022-11-05 16:58:39
+ * @LastEditTime: 2022-11-08 09:51:00
  * @FilePath: /onestep_install/README.md
  * @Description: 
  ## 03 ssr for vpn
@@ -32,3 +32,7 @@ git config --global user.name "hao007"
 ```
 sudo apt --fix-broken install
 ```
+## sh
+chrome.sh  安装chrome浏览器（科学上网）
+demo.sh       脚本执行文件，多个roslaunch
+fishros           鱼香ROS一键安装ROS
