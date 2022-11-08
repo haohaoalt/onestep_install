@@ -1,7 +1,7 @@
 <!--
  * @Author: zhanghao
  * @Date: 2022-08-30 19:48:45
- * @LastEditTime: 2022-11-08 09:51:00
+ * @LastEditTime: 2022-11-08 13:34:31
  * @FilePath: /onestep_install/README.md
  * @Description: 
  ## 03 ssr for vpn
@@ -18,7 +18,8 @@ wget http://fishros.com/install -O fishros && . fishros
 ## 02 一键安装src路径下所有package的依赖项
 
 ```
-rosdep install --from-paths src --ignore-src --rosdistro melodic -r -y
+rosdep install --from-paths src --ignore-src --rosdistro=melodic -y
+# 这个命令是用于安装工作空间中 src 路径下所有package的依赖项(由pacakge.xml文件指定)。
 ```
 
 
@@ -36,3 +37,10 @@ sudo apt --fix-broken install
 chrome.sh  安装chrome浏览器（科学上网）
 demo.sh       脚本执行文件，多个roslaunch
 fishros           鱼香ROS一键安装ROS
+
+## evo
+```
+sudo apt install python-pip
+pip install --upgrade pip
+pip3 install evo --upgrade --no-binary evo
+```
