@@ -1,7 +1,7 @@
 <!--
  * @Author: zhanghao
  * @Date: 2022-08-30 19:48:45
- * @LastEditTime: 2022-12-22 21:44:59
+ * @LastEditTime: 2022-12-22 22:12:47
  * @FilePath: /onestep_install/README.md
  * @Description: 
  ## 03 ssr for vpn
@@ -44,3 +44,6 @@ sudo apt install python-pip
 pip install --upgrade pip
 pip3 install evo --upgrade --no-binary evo
 ```
+
+## git rebase test
+this is on main
