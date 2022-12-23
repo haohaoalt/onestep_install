@@ -118,7 +118,7 @@ fi
 
 
 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/hao007/my_orb2/Examples/ROS
-alias git-log='git log --pretty=oneline --all --graph --abbrev-commit'
+alias git-log="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 
 # >>> fishros initialize >>>
