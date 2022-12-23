@@ -1,7 +1,11 @@
 <!--
  * @Author: zhanghao
  * @Date: 2022-08-30 19:48:45
- * @LastEditTime: 2022-12-22 22:12:47
+<<<<<<< HEAD
+ * @LastEditTime: 2022-12-22 22:15:14
+=======
+ * @LastEditTime: 2022-12-22 21:57:33
+>>>>>>> hao test 1223
  * @FilePath: /onestep_install/README.md
  * @Description: 
  ## 03 ssr for vpn
@@ -47,3 +51,5 @@ pip3 install evo --upgrade --no-binary evo
 
 ## git rebase test
 this is on main
+## git test
+add this item
