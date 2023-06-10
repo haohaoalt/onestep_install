@@ -1,17 +1,5 @@
-<!--
- * @Author: zhanghao
- * @Date: 2022-08-30 19:48:45
-<<<<<<< HEAD
- * @LastEditTime: 2022-12-22 22:15:14
-=======
- * @LastEditTime: 2022-12-22 21:57:33
->>>>>>> hao test 1223
- * @FilePath: /onestep_install/README.md
- * @Description: 
- ## 03 ssr for vpn
 
-https://s.pz.pe/subscribe/71RRENTM459C9UW1?node=ssr
--->
+
 # onestep_install
 这是一个用于自己快速安装指令的仓库，將次倉庫放入硬盤中以做備用, on momenta test
 ## 01 ROS
@@ -27,7 +15,7 @@ rosdep install --from-paths src --ignore-src --rosdistro=melodic -y
 ```
 
 
-## 03 GIT use
+## 03 Git use
 ```
 git config --global user.email "haohaoalt@163.com"
 git config --global user.name "hao007"
@@ -37,7 +25,7 @@ git config --global user.name "hao007"
 ```
 sudo apt --fix-broken install
 ```
-## sh
+## shell
 chrome.sh  安装chrome浏览器（科学上网）
 demo.sh       脚本执行文件，多个roslaunch
 fishros           鱼香ROS一键安装ROS
@@ -49,7 +37,8 @@ pip install --upgrade pip
 pip3 install evo --upgrade --no-binary evo
 ```
 
-## git rebase test
-this is on main
-## git test
-add this item
+# vpn
+
+**ssr for vpn**
+
+https://s.pz.pe/subscribe/71RRENTM459C9UW1?node=ssr

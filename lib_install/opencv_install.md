@@ -1,10 +1,3 @@
-<!--
- * @Author: zhanghao
- * @Date: 2022-12-03 19:04:29
- * @LastEditTime: 2022-12-03 19:04:30
- * @FilePath: /onestep_install/lib_install/opencv_install.md
- * @Description: 
--->
 # opencv
 首先在命令行中使用命令查找出各个版本opencv的安装位置
 
