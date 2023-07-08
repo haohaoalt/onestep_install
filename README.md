@@ -5,6 +5,7 @@
 ## 01 ROS
 ```
 wget http://fishros.com/install -O fishros && . fishros
+http://wiki.ros.org/melodic/Installation/Ubuntu
 ```
 
 ## 02 一键安装src路径下所有package的依赖项
